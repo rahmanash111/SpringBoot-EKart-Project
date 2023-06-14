@@ -1,0 +1,15 @@
+Hi there,
+
+Thsi Ekart Application has built using SpringBoot framework using java with the help of Postman for (URL requests),
+every modules have desingned by myself and every single objects are handled in peculiar way.
+This application uses mysql as a database software and the connection has been achieved by Spring data JPA. 
+
+Summary-(controller, dao, dto, repositery, service, util, excption, exceptionhandler)
+
+1.This is E-kart application which basically let's you to add different products in your order and also let's you to take care of product stocks.
+2.We have Customer, Categoery (which will contain List of)--> Product, and Orders (which will contain List of)--> Products objects in this project.
+3.We can add products in our orders from different categories 
+4.The orders will calculate the total order value based on the added products price and quantity.
+5.It also modifies the stock of that particular products by itself when it's moved to order.
+6.When we try to delete or update the products in the order, the stock will modified accordingly by itselt(complex logics has been written to take care of that)
+7.Every possible exceptions have been handled and you also get the proper responses to the front end.
