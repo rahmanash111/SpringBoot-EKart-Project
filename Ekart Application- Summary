@@ -1,6 +1,6 @@
 Hi there,
 
-Thsi Ekart Application has built using SpringBoot framework using java with the help of Postman for (URL requests),
+This Ekart Application has built entirely on SpringBoot framework using java and with the help of Postman for (URL requests),
 every modules have desingned by myself and every single objects are handled in peculiar way.
 This application uses mysql as a database software and the connection has been achieved by Spring data JPA. 
 
